@@ -1,8 +1,8 @@
-# Chum
+# chum
 
 **Content-addressed object storage on AT Protocol.**
 
-Chum is a bucket-style object store built directly on the AT Protocol substrate. Objects are addressed by their content digest — immutable, de-duplicated, and verifiable by construction. A mutable naming layer maps human-meaningful `bucket/key` names onto content IDs, so you get familiar object-store ergonomics over a substrate that is verifiable across time.
+`chum` is a bucket-style object store built directly on the AT Protocol substrate. Objects are addressed by their content digest — immutable, de-duplicated, and verifiable by construction. A mutable naming layer maps human-meaningful `bucket/key` names onto content IDs, so you get familiar object-store ergonomics over a substrate that is verifiable across time.
 
 We don't add verifiability to storage. We refuse to discard the verifiability the substrate already has.
 
